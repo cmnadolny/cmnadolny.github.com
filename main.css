@@ -1,0 +1,48 @@
+header{
+	background-color: red;
+}
+
+article{
+    height: 300px;
+    width:400px;
+    padding: 10px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+}
+section{
+	background-color: purple;
+    top: 30%;
+    width: 90%;
+    left: 10%;
+    float: left;
+    padding: 10px;
+    
+}
+
+body{
+    background: #000000 url("owl2.png") no-repeat right top;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1{
+    margin: 7px;
+    padding: 0;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+.right{
+position: absolute;
+right: 0px;
+width: 300 px;
+}
+
+p{
+font-family: "Verdana";
+font-size: 9px;
+}
