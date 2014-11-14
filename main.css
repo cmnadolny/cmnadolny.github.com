@@ -4,7 +4,7 @@ header{
 
 article{
     height: 300px;
-    width:400px;
+    width:500px;
     padding: 10px;
     position: absolute;
     left: 20%;
@@ -32,8 +32,11 @@ h1{
     margin: 7px;
     padding: 0;
     letter-spacing: 2px;
-    text-transform: lowercase;
-    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: 60;
+    text-decoration-style: dashed;
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: black;
 }
 
 .right{
