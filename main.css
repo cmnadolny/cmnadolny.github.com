@@ -12,19 +12,22 @@ article{
     text-align: center;
 }
 section{
-	background-color: #BDAEC6;
+	background-color: #886699;
     top: 30%;
     width: 90%;
     left: 10%;
     float: left;
     padding: 10px;
+    color: white;
+    opacity: 0.95;
 }
 
 body{
-    background: #9C8AA5;
+    //background: url("lol.png") repeat bottom;
+    background: linear-gradient(to bottom right, red , blue);
     margin: 0px;
     padding: 0px;
-    color: white;
+    color: #332255;
 }
 
 h1{
