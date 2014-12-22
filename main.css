@@ -1,11 +1,14 @@
 a:link{
     color: white;
+    text-decoration: none;
 }
 a:visited{
-    color: white;  
+    color: white;
+    text-decoration: none;
 }
 a:hover{
-    color: #421C52;   
+    color: #421C52;
+    text-decoration: line-through;
 }
 article{
     height: 30%;
