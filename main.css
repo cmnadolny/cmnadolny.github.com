@@ -9,19 +9,21 @@ a:hover{
 }
 article{
     height: 30%;
-    width:40;
+    width:40%;
     padding: 10px;
     position: fixed;
     left: 35%;
-    top: 30%;
+    top: 35%;
     text-align: center;
 }
 section{
-    text-align: center;
+    text-align: left;
+    font-weight: 100;
+    font-size: 10px;
     position: absolute;
-    left: 25%;
-    bottom: 30%;
-    width: 50%;
+    left: 5%;
+    bottom: 35%;
+    width: 75%;
     height: 30%;
     float: none;
     color: white;
@@ -29,7 +31,7 @@ section{
 }
 
 body{
-    background: #ffffff url("railroad_cpy.jpg") no-repeat right top;
+    background: #ffffff url("railroad.jpg") no-repeat right top;
     
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,23 +43,28 @@ body{
 }
 
 h1{
-    font-family: "Optima";
-    padding: 0px;
-    letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 40px;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    font-size: 37px;
+    color: white;
+    text-align: left;
+    position: absolute;
 }
 
 h2{
     position: absolute;
-    left: -25%;
-    bottom: -200%;
-    width: 150%;
-
+    left: -7%;
+    bottom: 6%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Raleway';
     text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
 }
 
 .right{
@@ -67,6 +74,7 @@ width: 300 px;
 }
 
 p{
-font-family: "Verdana";
-font-size: 13px;
+font-family: Georgia, serif, monospace;
+font-weight: 100;
+font-size: 14px;
 }
