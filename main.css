@@ -1,16 +1,15 @@
-
 article{
     height: 500px;
     width:500px;
     padding: 10px;
     position: absolute;
-    left: 20%;
-    top: 10%;
+    left: 30%;
+    top: 20%;
     text-align: center;
 }
 section{
 	background-color: #886699;
-    top: 50%;
+    top: 40%;
     width: 90%;
     left: 50%;
     float: left;
@@ -20,9 +19,12 @@ section{
 }
 
 body{
-    background: url("lol.png") repeat bottom;
-    background-color: #ddd;
-    //background: linear-gradient(#ffa6ed, #fbc7f1);
+    background: #ffffff url("railroad_cpy.jpg") no-repeat right top;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     margin: 0px;
     padding: 0px;
     color: #332255;
