@@ -13,7 +13,7 @@ article{
     padding: 10px;
     position: fixed;
     left: 35%;
-    top: 35%;
+    top: 45%;
     text-align: center;
 }
 section{
@@ -31,12 +31,12 @@ section{
 }
 
 body{
-    background: #ffffff url("railroad.jpg") no-repeat right top;
+    background: url("railroad.jpg") no-repeat right top;
     
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0px;
     padding: 0px;
     color: white;
@@ -74,7 +74,7 @@ width: 300 px;
 }
 
 p{
-font-family: Georgia, serif, monospace;
+font-family: 'Raleway', serif;
 font-weight: 100;
 font-size: 14px;
 }
