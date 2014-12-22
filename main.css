@@ -1,8 +1,8 @@
 article{
-    height: 500px;
-    width:500px;
+    height: 30%;
+    width:40;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     left: 30%;
     top: 20%;
     text-align: center;
@@ -39,8 +39,9 @@ h1{
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 60;
-    text-decoration-style: dashed;
-    //-webkit-text-stroke-width: 2px;
+    color: white;
+    //text-decoration-style: dashed;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
