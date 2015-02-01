@@ -13,17 +13,12 @@ body{
 }
 .about{
     position: absolute;
-    left: 55%;
+    left: 58%;
     top: 50%;
     width: 40%;
     height: 30%;
     transform: translate(-50%,-50%);
     text-align: left;   
-}
-.about > .links {
-    margin-top: 20px;
-    
-    text-align: center;
 }
 .about h1{
     margin-bottom: 10px;
@@ -41,9 +36,8 @@ body{
     font-size: 16px;
 }
 .about > .links{
-    
-    
-    text-align: center;
+    text-align: left;
+    margin-left: 29.5px;
 }
 hr{
     width: 50%;
@@ -53,10 +47,12 @@ hr{
     height: 1px;
     background-color: rgba(255, 255, 255, .75);
 }
+.about > .links {
+    margin-top: 20px;
+}
 .links > a{
     margin-right: 20px;
     margin-left: 20px;
-
     
     font-size: 14px;
     font-weight: 200;
