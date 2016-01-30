@@ -3,24 +3,66 @@
     margin: 0;
 }
 body{
-    background: url("railroad.jpg") no-repeat center center fixed;
-    
+    background-color: #597368;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: white;
+    color: #808A87;
 }
-.about{
-    position: absolute;
-    left: 58%;
-    top: 50%;
-    width: 40%;
+
+.wrapper{
+    width: 100%;
+    height: 600px;
+}
+
+.top {
+    background: url(flower.jpg) 0 0 no-repeat fixed;
+    background-size:cover;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
+    float: left;
+}
+
+.top-overlay {
+    background: rgba(139, 139, 139, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.line{
+    background-color: #838B8B;
+    float: left;
+    width: 100%;
+    height: 1px;
+    /*top: 59%;*/
+    /*z-index: 2;*/
+}
+
+.blocked{
+    float: left;
+    width: 100%;
     height: 30%;
-    transform: translate(-50%,-50%);
-    text-align: left;   
+    background-color: #C1CDC1;
 }
-.about h1{
+
+.about{
+    /*position: absolute;*/
+    border: 1px solid white; 
+    float: left;
+    background-color: #CFDBC5;
+    /*left: 40%;*/
+    /*top: 60%;*/
+    /*padding: 5%;*/
+    width: 100%;
+    height: 80%;
+    /*transform: translate(-50%,-50%);*/
+    text-align: center;   
+}
+.top h1{
     margin-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 100;
@@ -28,9 +70,12 @@ body{
     text-transform: uppercase;
     font-size: 45px;
     color: white;
-    text-align: left;
+    text-align: center;
+    z-index: 3;
 }
 .about p{
+    text-align: center;
+    vertical-align: middle;
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 16px;
