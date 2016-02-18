@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hello</title>
+    <link rel="stylesheet" href="styles/music.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </head>
+  <body>
+
+	<div class="main">
+		<div id="main-header">
+			<div ng-if="currPlaying == false">
+				<span><h1>Last Played</h1></span>
+			</div>
+			<div ng-if="currPlaying != false">
+				<span><h1>Currently Playing</h1></span>
+			</div>
+		</div>
+		<br>
+		<div id = "main-song">
+			<div id = "imgs"></div><br><br>
+			<strong id = "song"></strong><br>
+			<div id = "artist"></div><br>
+		</div>
+		<div id = "main-options">
+			top songs • now playing • history
+		</div>
+	</div>
+
+</body>
+</html>
