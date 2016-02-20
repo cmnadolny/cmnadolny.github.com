@@ -17,7 +17,7 @@ body{
 }
 
 .top {
-    background: url(images/flower.jpg) 0 0 no-repeat fixed;
+    background: url(../images/flower.jpg) 0 0 no-repeat fixed;
     background-size:cover;
     top: 0%;
     left: 0%;
@@ -41,7 +41,7 @@ body{
 
 #next {
     height: 10%;
-    background: url(images/flower.jpg) 0 0 no-repeat fixed;
+    background: url(../images/flower.jpg) 0 0 no-repeat fixed;
     background-size:cover;
 }
 
