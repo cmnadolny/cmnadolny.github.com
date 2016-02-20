@@ -54,25 +54,28 @@ $.post(url, 'method=user.getRecentTracks&'+user+'&'+key +'&format=json', functio
 
 $.post(url, 'method=user.getTopTracks&'+user+'&'+key +'&format=json', function(data){
 	var curr = data.toptracks["track"];
-	console.log(curr[0]);
 	for(var i = 0; i < 10; i++){
-		$('div#topsong div#main-song').append("<li>"+curr[i]["name"]+"</li>");
+		var image = curr[i]["image"][3]["#text"];
+		var artist = curr[i].artist["name"];
+		var song = curr[i].name;
+		$('div#topsong div#main-song').append("<div class='img-wrap'><img src=" + image + "/><br><span class='img-desc'><br>"+song+"<br><div style='font-weight: 400; font-size: 13px'>"+artist+"</div><br></span></div><br><br>");
 	}
 
 });
 
 $.post(url, 'method=user.getRecentTracks&'+user+'&'+key +'&format=json', function(data){
 	var curr = data.recenttracks["track"];
-	console.log(curr[0]);
-	for(var i = 0; i < 10; i++){
-
-		// $('div#history div#main-song').append("<img src="+curr[i]["image"][3]["#text"]+"/><br>"+"<li>"+curr[i]["name"]+"</li><br>");
+	var end = 10;
+	for(var i = 0; i < end; i++){
 		var image = curr[i]["image"][3]["#text"];
+		if(image == ""){
+			end++;
+			continue;
+		}
 		var artist = curr[i].artist["#text"];
 		var song = curr[i].name;
 
 		$('div#history div#main-song').append("<div class='img-wrap'><img src=" + image + "/><br><span class='img-desc'><br>"+song+"<br><div style='font-weight: 400; font-size: 13px'>"+artist+"</div><br></span></div><br><br>");
 	}
-
 });
 
